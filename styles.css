@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 20px;
+    font-size: 20pt;
+}
+
+.card-image {
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+}
+
+.navbar-item {
+    margin: 10px 10px;
+}
